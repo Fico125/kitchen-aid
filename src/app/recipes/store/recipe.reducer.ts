@@ -36,10 +36,6 @@ export function recipeReducer(
         ...state,
         recipes: updatedRecipes,
       };
-    // case RecipesActions.FETCH_RECIPES:
-    //   return {
-    //     ...state,
-    //   };
     case RecipesActions.DELETE_RECIPE:
       return {
         ...state,
